@@ -1,0 +1,25 @@
+.main-layout {
+  .ant-layout {
+    background: #f0f2f5;
+    .ant-layout-content {
+      min-height: calc(100vh - 72px);
+    }
+  }
+  .ant-layout-header {
+    background: #120338;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 4px 16px;
+    height: unset;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    .ant-avatar-string{
+      color: #120338;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+}
